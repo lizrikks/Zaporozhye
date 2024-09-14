@@ -1,0 +1,165 @@
+h1{
+    text-align: center;
+    font-size: 45px; 
+     padding: 20px 0px 20px 10px;
+      font-family:commercialscript btbackground-color;
+   text-shadow: #FFFAFA 1px 0 10px;
+   
+
+    
+}
+header {
+    background-color:#FFFAFA;
+    padding: 20px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+header img{
+    height: 90%;
+    width:  90%;
+
+}
+
+.logo{
+    float: left;
+    width: 90px;
+}
+nav{
+   width: 80%;
+   float: left;
+}
+
+
+nav a{
+  color:  black;
+  text-align: center;
+  padding: 15px 5%;
+  text-decoration: none;
+  font-size:20px;
+} 
+
+h2{
+    text-align: center;
+   text-shadow: #FFFAFA  1px 0 10px
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+{
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  
+  color: black;
+}
+.slider {
+  list-style-type: none;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 500px;
+  padding: 20px 0px 20px 10px;
+}
+.slider .item {
+  flex: 1 1 25%;
+  height: 100%;
+  background: no-repeat center/cover #333;;
+  border: 1px solid;
+  text-align: center;
+  transition: .5s;
+  padding: 20px 0px 20px 10px;
+}
+
+.slider .item:hover {
+  flex-basis: 75%;
+} 
+
+
+@media (max-width: 640px){
+  .slider {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .slider .item {
+    width: 100%;
+  }
+  .slider .item:hover {
+    flex-grow: 40%;
+  }
+  .slider .item span {
+    font-size: 1.3em;
+  }
+
+}
+
+h3{
+        text-align: center;
+    font-size: 30px;
+    background-color:#FFFAFA;
+     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+     font-family:Courier New;
+     margin: 3px;
+     
+}
+
+h4{
+  text-align:left;
+  font-size: 20px;
+  background-color:#FFFF00;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  
+}
+
+img{
+  width: 300px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.text{
+  display:flex;
+}
+
+.class{
+  display:flex;
+}
+
+body{
+   background: linear-gradient(to top, #2639fa, #c9d1ff);
+}
+
+p{
+  color:#FFFAFA;
+  text-shadow: black 1px 0 10px;
+}
+
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+    color:black;
+}
